@@ -1,0 +1,45 @@
+---
+title: "2nd quarto doc Practical 1"
+author: "Matthew Blackburn"
+---
+
+```{r}
+sqrt(9)
+```
+
+```{r}
+round(3.14159)
+```
+
+```{r}
+print(rep(5,7))
+```
+
+```{r}
+x <- 7
+print(x)
+print(class(x))
+```
+
+```{r}
+x <- 'codeword'
+print(x)
+print(class(x))
+```
+```{r}
+z <- FALSE
+print(class(z))
+```
+
+```{r}
+cell_ID_1 <- 'CX1'
+cell_ID_2 <- 'CX2'
+treated_1 <- TRUE
+treated_2 <- FALSE
+n_before_1 <- 5415
+n_before_2 <- 8123
+n_after_1 <- 1432
+n_after_2 <- 7543
+
+```
+
