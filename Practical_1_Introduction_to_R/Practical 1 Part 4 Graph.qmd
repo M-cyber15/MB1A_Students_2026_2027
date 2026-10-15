@@ -1,0 +1,20 @@
+---
+title: "Practical_1_Introduction_to_R/ukhsa_data_analysis"
+author: "Matthew Blackburn"
+---
+
+```{r}
+library(tidyverse)
+library(gt)
+```
+
+```{r}
+chart <- read_csv('ukhsa-chart-download2.csv')
+gt(head(chart))
+```
+```{r}
+ggplot(chart, aes(x= date, y=metric_value)) + geom_line(colour = 'red')
+xlab("year")
+ylab("DID")
+```
+
